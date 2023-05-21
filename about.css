@@ -1,0 +1,95 @@
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+</style>
+
+.about-us {
+  background-color: #FCB8AD;
+  padding: 50px 0;
+  font-family: 'Kanit', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.about-us h2 {
+  font-size: 32px;
+  color: #000000;
+  font-weight: 800;
+  font-family: 'Roboto', sans-serif;
+}
+
+.about-us p {
+  font-size: 24px;
+  color: #333333;
+  font-family: 'Roboto', sans-serif;
+}
+
+.empowerment-image {
+  width: 100%;
+  max-width: 500px;
+  margin-top: 30px;
+  border-radius: 10px;
+  animation: image-animation 1s ease-in-out infinite alternate;
+}
+
+.more-content {
+  margin-top: 50px;
+}
+
+.more-content h3 {
+  font-size: 30px;
+  color: #000000;
+  margin-bottom: 10px;
+  margin: 50px 0 10px 0;
+  font-weight: 800;
+  border-radius: 10px;
+background-color: #f59794;
+}
+
+.more-content p {
+  font-size: 24px;
+  color: #333333;
+  font-family: 'Roboto', sans-serif;
+}
+
+.more-content ul {
+  list-style-type: disc;
+  text-align: left;
+  margin-left: 20px;
+}
+
+.more-content ul li {
+  font-size: 24px;
+  color: #333333;
+  font-family: 'Roboto', sans-serif;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0 20px;
+  }
+
+  .empowerment-image {
+    margin-top: 20px;
+  }
+
+  .more-content {
+    margin-top: 30px;
+  }
+
+  .more-content h3 {
+    font-size: 22px;
+  }
+
+  .more-content p {
+    font-size: 14px;
+  }
+
+  .more-content ul li {
+    font-size: 14px;
+  }
+}

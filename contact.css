@@ -1,0 +1,145 @@
+<style>@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@500&display=swap');</style>
+
+.button-img {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact_txt {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact-section {
+  padding: 40px 0;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+#c_h2 {
+  text-align: center;
+  font-size: 45px;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  margin-left: 1px;
+  font-family: 'Overpass', sans-serif;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  font-family: 'Overpass', sans-serif;
+}
+
+button {
+  background-color: #fc5185;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ff6e98;
+}
+
+.success-message {
+  background-color: #dff0d8;
+  color: #3c763d;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.hidden {
+  display: none;
+}
+
+.ins_msg {
+  padding-top: 44px;
+  width: 160px;
+  height: 80px;
+  padding-right: 10px;
+}
+
+.ins_msg a {
+  width: 150px;
+  height: 50px;
+}
+
+.ins_msg i {
+  padding-top: 8px;
+}
+
+.ins_msg img{
+  width: 50px;
+  padding-top: 8px;
+}
+
+.instagram-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #fd5c63, #f9c03e, #facf3e, #f9d44e, #fd7d5c, #5cabe3, #4a8fd7, #3c7fcb);
+  background-size: 500% 100%;
+  animation: gradientAnimation 8s ease infinite;
+  padding: 12px 24px;
+  border-radius: 10px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  overflow: hidden;
+  text-align: center;
+  font-size: 18px;
+}
+
+.instagram-button:hover {
+  transform: scale(1.05);
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+.instagram-button .button-text {
+  width: 140px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.instagram-button:hover .button-text {
+  opacity: 1;
+}
+
+.instagram-button:hover .button-icon {
+  opacity: 0;
+}
