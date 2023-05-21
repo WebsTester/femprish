@@ -12,3 +12,11 @@ navLinks.forEach(link => {
     link.classList.add('active');
   }
 });
+
+
+const dragImage = document.getElementById('drag-image');
+
+dragImage.addEventListener('dragstart', function(event) {
+  const linkUrl = this.parentElement.href;
+  event.dataTransfer.setData('text/uri-list', linkUrl);
+});
